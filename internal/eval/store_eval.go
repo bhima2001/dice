@@ -4420,7 +4420,7 @@ func evalLINSERT(args []string, store *dstore.Store) *EvalResponse {
 	return makeEvalResult(res)
 }
 
-// SETBIT key offset value
+// SETBIT key offset value.
 func evalSETBIT(args []string, store *dstore.Store) *EvalResponse {
 	var err error
 
