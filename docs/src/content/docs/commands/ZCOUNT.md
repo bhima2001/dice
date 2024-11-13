@@ -39,7 +39,7 @@ If the key is not of the sorted set type, an error is returned.
 1. **Wrong Type**:
    - **Message**: `(error) WRONGTYPE Operation against a key holding the wrong kind of value`
 2. **Wrong Argument Count**:
-   - **Message**: `(error) ERROR wrong number of arguments for 'zcount' command`
+   - **Message**: `(error) ERROR wrong number of arguments for 'zcount' command.`
 
 ## Example Usage
 
